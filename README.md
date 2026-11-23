@@ -18,11 +18,12 @@ For every topic I follow the same loop:
 ### Phase 1: Problem-solving foundations
 
 - [x] [Lesson 1: Thinking like a programmer](phase-1-foundations/01-thinking-like-a-programmer.md)
-- [ ] Lesson 2: Understanding input, output, and constraints in depth
-- [ ] Lesson 3: Dry running code
-- [ ] Lesson 4: Big O and analyzing loops
-- [ ] Lesson 5: Space complexity
-- [ ] Lesson 6: Comparing solutions
+- [ ] [Lesson 2: Analyzing loops and reading constraints](phase-1-foundations/02-analyzing-loops-and-reading-constraints.md)
+- [ ] [Lesson 3: Understanding input, output, and constraints](phase-1-foundations/03-understanding-input-output-and-constraints.md)
+- [ ] Lesson 4: Dry running code
+- [ ] Lesson 5: Big O and analyzing loops
+- [ ] Lesson 6: Space complexity
+- [ ] Lesson 7: Comparing solutions
 
 ### Phase 2: Fundamental data structures
 
@@ -47,12 +48,17 @@ For every topic I follow the same loop:
 | Problem | Concepts | Best time | Best space | File |
 |---|---|---|---|---|
 | Contains Duplicate | brute force, sets, trade-offs | O(n) | O(n) | [contains-duplicate.py](problems/contains-duplicate.py) |
+| Pair Sum | brute force, hash set, complements | O(n) | O(n) | [Two-Sum-problem.py](problems/Two-Sum-problem.py) |
 
 ## Repository structure
 
 ```
 python-dsa-notes/
 ├── README.md
+├── phase-1-foundations/
+│   ├── 01-thinking-like-a-programmer.md
+│   ├── 02-analyzing-loops-and-reading-constraints.md
+│   └── 03-understanding-input-output-and-constraints.md
 ├── docs/
 │   ├── 01-python-basics.md
 │   ├── 02-python-conditions-and-loops.md
